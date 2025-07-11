@@ -6,7 +6,6 @@ modals = document.querySelectorAll(".modal");
 close_btns = document.querySelectorAll(".close-btn");
 // 상세보기 버튼
 view_details_btns = document.querySelectorAll(".view-details-btn");
-console.log(modals);
 // 상세보기 버튼 클릭시 모달창 on
 view_details_btns.forEach((detail_btn, index) => {
   detail_btn.addEventListener("click", () => {
